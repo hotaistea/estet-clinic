@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+.footer {
+    background: linear-gradient(0deg, rgba(39, 39, 39, 0.848) 0%, rgba(50, 50, 50, 0.825) 100%), url(../img/footer-img.jpg), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.benefits {
+    background: linear-gradient(0deg, rgba(39, 39, 39, 0.904) 0%, rgba(50, 50, 50, 0.852) 100%), url(../img/benefits-img.JPG), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 50%;
+}
+.ask-quetion {
+    background: linear-gradient(0deg, rgba(39, 39, 39, 0.904) 0%, rgba(50, 50, 50, 0.852) 100%), url(../img/galery-img3.JPG), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 50%;
+}
+.wrapper {
+    overflow-x: hidden;
+}
+@media (max-width: 425px) {
+    .benefits {
+        background-image: none;
+        background-color: #f7f7f7;
+    }
+    .swiper-slide1 {
+        background: linear-gradient(0deg, rgba(39, 39, 39, 0.818) 0%, rgba(50, 50, 50, 0.755) 100%), url(../img/main-img1.jpg), lightgray 50% / cover no-repeat;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 60vh !important;
+    }
+    .swiper-slide2 {
+        background: linear-gradient(0deg, rgba(39, 39, 39, 0.818) 0%, rgba(50, 50, 50, 0.755) 100%), url(../img/main-img2.jpg), lightgray 50% / cover no-repeat;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 60vh !important;
+    }
+    .free-consultation {
+        background: linear-gradient(0deg, rgba(39, 39, 39, 0.818) 0%, rgba(50, 50, 50, 0.755) 100%), url(../img/free-consultation-img.png), lightgray 50% / cover no-repeat;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 70%;
+    }
+}
